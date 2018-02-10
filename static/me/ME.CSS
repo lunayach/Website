@@ -298,3 +298,29 @@ position:relative;}
 
 
 /*ending of load css*/
+/*For the cards*/
+.demo-card-wide.mdl-card {
+    width: 512px;
+}
+.one .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    /*height: 176px;*/
+    /*background: url('static/me/images/ml.jpeg') center / cover;*/
+    background-image: url("images/ml.jpeg");
+}
+.two .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    /*height: 176px;*/
+    /*background: url('static/me/images/ml.jpeg') center / cover;*/
+    background-image: url("images/iot.jpg");
+}
+.three .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    /*height: 176px;*/
+    /*background: url('static/me/images/ml.jpeg') center / cover;*/
+    background-image: url("images/angular.png");
+}
+.card{
+    margin-top: 20px;
+    margin-left: 30px;
+}

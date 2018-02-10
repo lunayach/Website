@@ -12,6 +12,8 @@
 {#    CSS files#}
    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 
     <link rel="stylesheet" type="text/css" href="static/me/ME.CSS">
 {#    scripts#}
@@ -20,6 +22,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/dcdef9a075.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 {#    the custom script file#}
     <script src="static/me/script_me.JS"></script>
     <script src="static/me/particles.js"></script>
@@ -76,11 +80,66 @@
     </div>
     <div class="col-lg-4 photo" id="work-photo" ></div>
     <div class="col-lg-4 work-toggle"  >
-        <div style="font-weight: bold">
-        *a summer project on item(movie) recommendation using ML <a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a><br>
-        *Data Pipeline for IoT <a href="https://drive.google.com/open?id=1rXB8E336eeCXXrqH90z48U5aKQk6DVJI"><i class="fa fa-file fa-2x" aria-hidden="true"></i></a><br>
+        <!--<div style="font-weight: bold">-->
+        <!--*a summer project on item(movie) recommendation using ML <a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a><br>-->
+        <!--*Data Pipeline for IoT <a href="https://drive.google.com/open?id=1rXB8E336eeCXXrqH90z48U5aKQk6DVJI"><i class="fa fa-file fa-2x" aria-hidden="true"></i></a><br>-->
+        <!--</div>-->
+        <div class="card one">
+        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Item Recommendation</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+                Used collaborative filtering technique in Machine Learning to suggest user a movie.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+            </div>
+            <!--<div class="mdl-card__menu">-->
+                <!--<button class="mdl-button mdl-button&#45;&#45;icon mdl-js-button mdl-js-ripple-effect">-->
+                    <!--<i class="material-icons">share</i>-->
+                <!--</button>-->
+            <!--</div>-->
         </div>
-    </a>
+        </div>
+        <div class="card two">
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Data Pipeline</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Built a real time dashboard to plot from nodeMCU.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://drive.google.com/open?id=1rXB8E336eeCXXrqH90z48U5aKQk6DVJI"><i class="fa fa-file fa-2x" aria-hidden="true"></i></a>
+                </div>
+                <!--<div class="mdl-card__menu">-->
+                <!--<button class="mdl-button mdl-button&#45;&#45;icon mdl-js-button mdl-js-ripple-effect">-->
+                <!--<i class="material-icons">share</i>-->
+                <!--</button>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div class="card three">
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Website (using Angular4)</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Was involved in team responsible for making website for India's biggest Technical fest, Techkriti.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://techkriti.org/"><i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
+                </div>
+                <!--<div class="mdl-card__menu">-->
+                <!--<button class="mdl-button mdl-button&#45;&#45;icon mdl-js-button mdl-js-ripple-effect">-->
+                <!--<i class="material-icons">share</i>-->
+                <!--</button>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+    <!--</a>-->
     </div>
 
 
