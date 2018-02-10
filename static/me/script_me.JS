@@ -17,9 +17,9 @@ $(window).on('load',function () {
             callback: function () {
                 $('#get').effect('slide', {direction: "up"}, {duration: 800});
                 $('#reach').effect('slide', {direction: "down"}, {duration: 1200});
-                $('.first').click(function () {
-                    alert("Mayank is yet to write a blog!");
-                })
+                // $('.first').click(function () {
+                //     alert("Mayank is yet to write a blog!");
+                // })
 
 
                 $('.second').click(function () {
@@ -53,7 +53,7 @@ $(window).on('load',function () {
 
                 //for the reach buttons
                 $('.fa-envelope').click(function () {
-                    window.location.href = "mailto:mayankl@iitk.ac.in?body=I am a swift replier :)...";
+                    window.location.href = "mailto:mayankl@iitk.ac.in?body=I am a swift replier :P...";
                 })
                 $('.fa-facebook-official').click(function () {
                     window.open('https://www.facebook.com/mayank.lunayach');
